@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -15,6 +15,7 @@
     <PackageTags>Serilog, EventStore, Logging</PackageTags>
     <PackageId>CR.Tools.EventStoreSerilogLogger</PackageId>
     <Product>CR.Tools</Product>
+    <PackageReleaseNotes>https://GitHub.com/Cognisant/Tools.EventStoreSerilogLogger/releases/tag/$(Version)</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
