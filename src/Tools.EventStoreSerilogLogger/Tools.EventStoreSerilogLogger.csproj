@@ -15,7 +15,7 @@
     <PackageTags>Serilog, EventStore, Logging</PackageTags>
     <PackageId>CR.Tools.EventStoreSerilogLogger</PackageId>
     <Product>CR.Tools</Product>
-    <PackageReleaseNotes>https://GitHub.com/Cognisant/Tools.EventStoreSerilogLogger/releases/tag/$(Version)</PackageReleaseNotes>
+    <PackageReleaseNotes>https://GitHub.com/Cognisant/Tools.EventStoreSerilogLogger/releases/tag/$(Tag)</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
