@@ -19,13 +19,13 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>bin\Release\netstandard2.0\CR.Logging.EventStore.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\netstandard2.0\CR.Tools.EventStoreSerilogLogger.xml</DocumentationFile>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <WarningsAsErrors />
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\Debug\netstandard2.0\CR.Logging.EventStore.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\netstandard2.0\CR.Tools.EventStoreSerilogLogger.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
