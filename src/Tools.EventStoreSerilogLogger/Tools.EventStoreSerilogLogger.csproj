@@ -9,7 +9,7 @@
     <RepositoryUrl>https://github.com/cognisant/Tools.EventStoreSerilogLogger</RepositoryUrl>
     <PackageLicenseUrl>https://github.com/cognisant/Tools.EventStoreSerilogLogger/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/cognisant/Tools.EventStoreSerilogLogger</PackageProjectUrl>
-    <PackageIconUrl>https://github.com/cognisant/Tools.EventStoreSerilogLogger/blob/master/logo.png</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/cognisant/Tools.EventStoreSerilogLogger/master/logo.png</PackageIconUrl>
     <Authors>Cognisant Research</Authors>
     <Company>Cognisant Research</Company>
     <PackageTags>Serilog, EventStore, Logging</PackageTags>
