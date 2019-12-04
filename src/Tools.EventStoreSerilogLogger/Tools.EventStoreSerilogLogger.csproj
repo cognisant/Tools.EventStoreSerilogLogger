@@ -9,12 +9,11 @@
     <RepositoryUrl>https://github.com/qphl/Tools.EventStoreSerilogLogger</RepositoryUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/qphl/Tools.EventStoreSerilogLogger</PackageProjectUrl>
-    <PackageIconUrl></PackageIconUrl>
     <Authors>Corsham Science</Authors>
     <Company>Corsham Science</Company>
-    <PackageTags>Serilog, EventStore, Logging</PackageTags>
+    <PackageTags>CorshamScience, corsham, science, Serilog, EventStore, event, store, Logger, Logging</PackageTags>
     <PackageId>CorshamScience.Tools.EventStoreSerilogLogger</PackageId>
-    <Product>CR.Tools</Product>
+    <Product>CorshamScience.Tools.EventStoreSerilogLogger</Product>
     <PackageReleaseNotes>https://GitHub.com/qphl/Tools.EventStoreSerilogLogger/releases/tag/</PackageReleaseNotes>
     <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
     <PackageIcon>Logo.png</PackageIcon>
