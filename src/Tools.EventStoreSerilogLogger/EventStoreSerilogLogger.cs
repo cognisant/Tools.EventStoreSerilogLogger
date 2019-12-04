@@ -2,7 +2,7 @@
 // Copyright (c) Cognisant. All rights reserved.
 // </copyright>
 
-namespace CR.Tools.EventStoreSerilogLogger
+namespace CorshamScience.Tools.EventStoreSerilogLogger
 {
     using System;
     using EventStore.ClientAPI;
