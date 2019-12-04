@@ -2,35 +2,37 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>CR.Tools.EventStoreSerilogLogger</AssemblyName>
-    <RootNamespace>CR.Tools.EventStoreSerilogLogger</RootNamespace>
+    <AssemblyName>CorshamScience.Tools.EventStoreSerilogLogger</AssemblyName>
+    <RootNamespace>CorshamScience.Tools.EventStoreSerilogLogger</RootNamespace>
     <Description>A package containing a wrapper to support using Serilog Loggers with EventStore.</Description>
-    <Copyright>Cognisant Research 2018</Copyright>
-    <RepositoryUrl>https://github.com/cognisant/Tools.EventStoreSerilogLogger</RepositoryUrl>
-    <PackageLicenseUrl>https://github.com/cognisant/Tools.EventStoreSerilogLogger/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/cognisant/Tools.EventStoreSerilogLogger</PackageProjectUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/cognisant/Tools.EventStoreSerilogLogger/master/logo.png</PackageIconUrl>
-    <Authors>Cognisant Research</Authors>
-    <Company>Cognisant Research</Company>
+    <Copyright>Corsham Science 2019</Copyright>
+    <RepositoryUrl>https://github.com/qphl/Tools.EventStoreSerilogLogger</RepositoryUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/qphl/Tools.EventStoreSerilogLogger</PackageProjectUrl>
+    <PackageIconUrl></PackageIconUrl>
+    <Authors>Corsham Science</Authors>
+    <Company>Corsham Science</Company>
     <PackageTags>Serilog, EventStore, Logging</PackageTags>
-    <PackageId>CR.Tools.EventStoreSerilogLogger</PackageId>
+    <PackageId>CorshamScience.Tools.EventStoreSerilogLogger</PackageId>
     <Product>CR.Tools</Product>
-    <PackageReleaseNotes>https://GitHub.com/Cognisant/Tools.EventStoreSerilogLogger/releases/tag/$(Tag)</PackageReleaseNotes>
+    <PackageReleaseNotes>https://GitHub.com/qphl/Tools.EventStoreSerilogLogger/releases/tag/</PackageReleaseNotes>
+    <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>bin\Release\netstandard2.0\CR.Tools.EventStoreSerilogLogger.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\netstandard2.0\CorshamScience.Tools.EventStoreSerilogLogger.xml</DocumentationFile>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <WarningsAsErrors />
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\Debug\netstandard2.0\CR.Tools.EventStoreSerilogLogger.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\netstandard2.0\CorshamScience.Tools.EventStoreSerilogLogger.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CR.CodeStyle.CSharp.Full" Version="[1.0.1,2.0.0-0)">
-      <PrivateAssets>All</PrivateAssets>
+    <PackageReference Include="CorshamScience.CodeStyle.CSharp.Full" Version="3.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="EventStore.Client" Version="[5.0.1,6.0.0-a)" />
     <PackageReference Include="Serilog" Version="[2.0.0,3.0.0-a)" />
