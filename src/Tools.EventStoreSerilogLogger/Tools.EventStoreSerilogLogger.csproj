@@ -17,6 +17,7 @@
     <Product>CR.Tools</Product>
     <PackageReleaseNotes>https://GitHub.com/qphl/Tools.EventStoreSerilogLogger/releases/tag/</PackageReleaseNotes>
     <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+    <PackageIcon>Logo.png</PackageIcon>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -36,6 +37,13 @@
     </PackageReference>
     <PackageReference Include="EventStore.Client" Version="[5.0.1,6.0.0-a)" />
     <PackageReference Include="Serilog" Version="[2.0.0,3.0.0-a)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Logo.png">
+      <PackagePath></PackagePath>
+      <Pack>True</Pack>
+    </None>
   </ItemGroup>
 
 </Project>
