@@ -1,4 +1,4 @@
-# CR.Tools.EventStoreSerilogLogger
+# CorshamScience.Tools.EventStoreSerilogLogger
 
 A package containing a wrapper to support using Serilog Loggers with EventStore.
 
